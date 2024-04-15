@@ -21,4 +21,26 @@ ul {
 body {
     margin: 0;
     font-family: sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.menu {
+    display: none;
+}
+
+@media screen and(min-width: 768px) {
+    .button-menu {
+        display: none;
+    }
+
+    .menu {
+
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(118, 172, 225);
+        height: 30px;
+        align-items: center;
+    }
 }
